@@ -8,7 +8,7 @@ int main() {
 	int v = 0;
 	v = (n * 8);
 	printf("le nombre d'octet utilise est %d\n", n);
-	printf("le nombre de bit utilise est %d\n", v);
+	printf("le nombre de bit utilise est %d\n\n", v);
 
 	for (int i = 0; i < v; i++) {
 		if ((N & 1) == 1) {
@@ -24,6 +24,6 @@ int main() {
 		N = N >> 1;
 	}
 
-	printf("\nbye !!!\n");
+	printf("\nbye !\n");
 
 }
